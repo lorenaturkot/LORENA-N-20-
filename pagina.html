@@ -50,10 +50,20 @@
             <p class="artigo-autor">Por: Lorena e Yohana</p>
             <p>Boas-vindas ao meu novo blog| aqui vou compartilhar dicas de programação e curiosidades da área e
                 tecnologia.</p>
-                <button>❤️</button>
+                <button>❤️ <span>0</span></button>
             </div>
            
         </main>
 </body>
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
 
+    fuction botaoClicado(){
+        console.log("fui clicado");
+        
+    }
+
+    
+</script>
 </html> 
